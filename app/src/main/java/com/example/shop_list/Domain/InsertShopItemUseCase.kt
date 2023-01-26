@@ -6,4 +6,4 @@ class InsertShopItemUseCase(private val shopListRepository: ShopListRepository) 
         shopListRepository.insertShopItem(shopItem)
     }
 
-}
+    }
